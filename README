@@ -6,7 +6,7 @@ make sure the following files are present:
 4. NFA2DFA.cpp -- converts NFA to DFA via subset construction (Make sure to press Ctrl-D after input)
 5. MinDFA.cpp -- minimizes no. of states in DFA
 6. acceptDFA.cpp -- accepts a DFA and a string and then prints YES iff DFA accepts string
-7. grepcopy.cpp
+7. grepcopy.cpp — a program to match words in a file to regex.
 
 To make all executables enter:
 	make all
