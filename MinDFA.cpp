@@ -99,8 +99,8 @@ NFA minimizeDFA(NFA& A){
 
   for(uLong i=0;i<A.noStates;i++){
   	if(sets[i]==-1)
-    for(auto pb:A.Trans[i])
-      minians.addTransition(stateMap[i],stateMap[pb.second],pb.first);
+    	for(auto pb:A.Trans[i])
+      		minians.addTransition(stateMap[i],stateMap[pb.second],pb.first);
   }
 
   for(uLong f:A.acceptStates)
